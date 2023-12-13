@@ -1,0 +1,45 @@
+.breed-select {
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.cat-info {
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  margin: 40px;
+  display: grid;
+}
+
+.loader {
+  margin-left: 40px;
+}
+
+.loader-circle {
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  border: 3px solid #9e9b9b;
+  border-bottom-color: #030303;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-right: 5px;
+  animation: rotation 1s linear infinite;
+  display: inline-block;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.is-hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
